@@ -6,7 +6,7 @@ const WebpackAliossPlugin = require('webpack-alioss-plugin')
 // If your port is set to 80,
 // use administrator privileges to execute the command line.
 // For example, on Mac: sudo npm run / sudo yarn
-const devServerPort = 10001 // TODO: get this variable from setting.ts
+const devServerPort = 10000 // TODO: get this variable from setting.ts
 const name = 'Gin Web Vue' // TODO: get this variable from setting.ts
 
 // 配置文件上传到阿里云CDN
@@ -20,7 +20,7 @@ let publicPath = './'
 let plugins = []
 
 if (process.env.NODE_ENV === 'production' && process.env.WEBPACK_ALIOSS_OPEN === 'true') {
-  publicPath = '//piupuer.oss-cn-shenzhen.aliyuncs.com/go/gin-web-vue/'
+  publicPath = '//finalxcode.oss-cn-shenzhen.aliyuncs.com/go/gin-web-vue/'
   plugins = [new WebpackAliossPlugin()]
 }
 

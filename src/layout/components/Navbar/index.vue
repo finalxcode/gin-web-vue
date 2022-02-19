@@ -81,7 +81,7 @@
           </router-link>
           <a
             target="_blank"
-            href="https://github.com/piupuer/gin-web"
+            href="https://github.com/finalxcode/gin-web"
           >
             <el-dropdown-item>
               {{ $t('navbar.github') }}
@@ -89,7 +89,7 @@
           </a>
           <a
             target="_blank"
-            href="https://github.com/piupuer/gin-web/blob/master/README.md"
+            href="https://github.com/finalxcode/gin-web/blob/master/README.md"
           >
             <el-dropdown-item>Docs</el-dropdown-item>
           </a>

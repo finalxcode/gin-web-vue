@@ -2,7 +2,7 @@
   "name": "gin-web-vue",
   "version": "1.0.0",
   "private": true,
-  "author": "piupuer <piupuer@gmail.com>",
+  "author": "finalxcode <finalxcode@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:prod": "vue-cli-service build",
@@ -123,7 +123,7 @@
     "webpack-alioss-plugin": "^2.4.0"
   },
   "bugs": {
-    "url": "https://github.com/piupuer/gin-web-vue/issues"
+    "url": "https://github.com/finalxcode/gin-web-vue/issues"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -142,6 +142,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piupuer/gin-web-vue.git"
+    "url": "git+https://github.com/finalxcode/gin-web-vue.git"
   }
 }
